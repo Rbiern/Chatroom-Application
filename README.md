@@ -23,3 +23,4 @@ Chatroom application developed in two versions: one using TCP protocol and the o
 1.	Run the server file first. Once sever is up and running, join via the clients with a username of your choosing in the arguments.
 2.	For a client to exit the group chat, type “exit” into the chat.
 3.	Server will automatedly close down once all clients have left the server.
+![Capture](https://github.com/Rbiern/Chatroom-Application/assets/156489385/187200ef-f89c-40d9-9a4c-a80c75841ee5)
