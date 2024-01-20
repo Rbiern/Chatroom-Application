@@ -2,22 +2,22 @@
 Chatroom application developed in two versions: one using TCP protocol and the other using UDP protocol.
 
 # TCP protocol:
-•	TCP: reliable, byte stream-oriented
-•	server must have created socket (door) that welcomes client’s contact.
-•	Creating TCP socket, specifying IP address, port number of server process.
-•	Application viewpoint: TCP provides reliable, in-order byte-stream transfer (“pipe”) between client and server processes and UDP.
+•	TCP: reliable, byte stream-oriented <br />
+•	server must have created socket (door) that welcomes client’s contact. <br />
+•	Creating TCP socket, specifying IP address, port number of server process. <br />
+•	Application viewpoint: TCP provides reliable, in-order byte-stream transfer (“pipe”) between client and server processes and UDP. <br />
 
 # UDP protocol: 
-•	UDP: unreliable datagram 
-•	sender explicitly attaches IP destination address and port # to each packet.
-•	receiver extracts sender IP address and port# from received packet.
-•	Application viewpoint: UDP provides unreliable transfer of groups of bytes (“datagrams”) between client and server processes
+•	UDP: unreliable datagram <br />
+•	sender explicitly attaches IP destination address and port # to each packet. <br />
+•	receiver extracts sender IP address and port# from received packet. <br />
+•	Application viewpoint: UDP provides unreliable transfer of groups of bytes (“datagrams”) between client and server processes. <br />
 
 
 # Features:
-•	Accept multiple client connections.
-•	Allow clients to send messages to the server.
-•	Broadcast messages from one client to all other connected clients.
+•	Accept multiple client connections. <br />
+•	Allow clients to send messages to the server. <br />
+•	Broadcast messages from one client to all other connected clients. <br />
 
 # How to use:
 1.	Run the server file first. Once sever is up and running, join via the clients with a username of your choosing in the arguments.
